@@ -13,6 +13,7 @@ public class Main extends Application {
             FXMLLoader loader = new FXMLLoader();
             BorderPane root = (BorderPane)loader.load(getClass().getResource("sample.fxml").openStream());
             primaryStage.setScene(new Scene(root));
+            primaryStage.setTitle("visualSort");
             primaryStage.show();
             root.requestFocus();
         } catch (Exception e) {

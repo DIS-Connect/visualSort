@@ -18,11 +18,18 @@ public class InsertionSort implements SortAlgorithm{
                         array.insert(i, j);
                         array.changeColor(i, Color.RED);
                         array.changeColor(j, Color.RED);
-                    }
+
+                        array.draw();
+                        array.changeColor(i, Color.WHITE);
+                        array.changeColor(j, Color.WHITE);
+                        break;
+                    }else{
+
+
                     array.draw();
                     array.changeColor(i, Color.WHITE);
                     array.changeColor(j, Color.WHITE);
-                }
+                }}
         }
 
         }
