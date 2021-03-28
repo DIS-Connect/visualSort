@@ -1,13 +1,13 @@
 VISUAL SORTING PROGRAM
 -
-Mit diesem Programm lassen sich verschiedene Algorithmen visualisieren die ein Array sortieren.
+Mit diesem Programm lassen sich verschiedene Algorithmen visualisieren, die ein Array sortieren.
 
 Verfügbare Algorithmen:
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 
-
+Die Arraygröße sowie die Sortiergeschwindigkeit lassen sich dynamisch verändern.
 
 ![Image2](https://cdn.discordapp.com/attachments/694958009197133855/825714736821698560/unknown.png)
 
